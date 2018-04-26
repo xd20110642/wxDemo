@@ -1,0 +1,18 @@
+<view class='container'>
+  <view bindtap='bindViewTap' class='userinfo'>
+    <image class='userinfo-avatar' src='{{userInfo.avatar}}' backgound-size='cover'></image>
+  </view>
+
+  <view>
+    <text class='userinfo-nickname'>{{userInfo.nickname}}(Dunizb)</text>
+  </view>
+
+  <view class='usermotto'>
+    <button type='default' size='{{primarySize}}' plain="{{plain}}" hover-class='button-hover' bindtap="toCalc">{{motto}}</button>
+  </view>
+  <view>
+  <!-- <navigator url='view' class='github' hover-class='navigator-hover'>
+    <icon type='{{iconType}}' class='icon' size='20'>版权所有</icon>
+  </navigator> -->
+  </view> 
+</view>
