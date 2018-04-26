@@ -1,10 +1,10 @@
 <view class='container'>
   <view bindtap='bindViewTap' class='userinfo'>
-    <image class='userinfo-avatar' src='{{userInfo.avatar}}' backgound-size='cover'></image>
+    <image class='userinfo-avatar' src='{{userInfo.avatarUrl}}' backgound-size='cover'></image>
   </view>
 
   <view>
-    <text class='userinfo-nickname'>{{userInfo.nickname}}(Dunizb)</text>
+    <text class='userinfo-nickname'>{{userInfo.nickName}}</text>
   </view>
 
   <view class='usermotto'>

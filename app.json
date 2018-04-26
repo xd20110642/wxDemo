@@ -8,7 +8,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#da7c0c",
-    "navigationBarTitleText":"学习慕课网程序",
+    "navigationBarTitleText":"微信小程序",
     "navigationBarTextStyle":"white"
   }
 }

@@ -1,2 +1,7 @@
 <!--pages/history/history.wxml-->
-<text>pages/history/history.wxml</text>
+<!-- <text>还没有来的及写页面样式和内容</text> -->
+<view class='content'>
+<block wx:for="{{logs}}" wx:for-item="log">
+<view class='item'>{{log}}</view>
+</block>
+</view>
